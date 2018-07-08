@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+
+struct complex{
+
+int real, img;
+
+};
+
+int main()
+{
+struct complex a,b,c;
+
+printf("enter the two numbers ")
+scanf("%d %d",&a.real, &a.img);
+ 
+ 
+printf("enter the two numbers ")
+scanf("%d %d",&b.real, &b.img);
+
+c.real=a.real+b.real;
+c.img=a.img+b.img;
+
+printf("after addition: (%d)+(%di)", c.real+c.img);
+
+return 0;
+
+}
+ 
